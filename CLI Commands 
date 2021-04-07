@@ -1,0 +1,17 @@
+ls
+cp -r ./the ./sentence
+cd ./nouns
+ls
+cp -r ./lamp ../sentence/the
+cd ../verbs
+ls
+cp -r ./woke ../sentence/the/lamp
+cp -r ../the ../sentence/the/lamp/woke
+cd ../nouns
+cp -r ./yugoslavian ../sentence/the/lamp/woke/the
+cp -r ./ladybug ../sentence/the/lamp/woke/the/yugoslavian
+cd ../adverbs
+ls
+cp -r .zestfully ../sentence/the/lamp/woke/the/yugoslavian/ladybug
+git status
+git add 
